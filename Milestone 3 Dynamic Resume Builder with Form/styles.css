@@ -1,0 +1,64 @@
+/* Add styles for the form */
+.form-container {
+    background: #f0f0f0;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+   /* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 1;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border: 2px solid #fa8907;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #cfbdf8;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    width: 100%;
+    background-color: #298d2c;
+    color: rgb(252, 245, 245);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #888e38;
+  }
+  
+  /* Adjust resume-container for dynamic content */
+  #resume-display {
+    display: flex;
+    margin-top: 20px;
+    background-color: #dfdfe0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  

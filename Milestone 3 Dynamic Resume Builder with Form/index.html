@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="resume-builder-container">
+    <header class="header">
+      <h1>Dynamic Resume Builder</h1>
+    </header>
+
+    <!-- Form for user input -->
+    <section class="form-container">
+      <h2>Fill Out Your Information</h2>
+      <form id="resume-form">
+        <h3>Personal Information</h3>
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="tel" id="phone" placeholder="Phone Number" required />
+        <label for="profile-picture"> <h3>Upload Profile Picture:</h3></label>
+        <input type="file" id="profile-picture" accept="image/*" />
+
+
+        <h3>Education</h3>
+        <textarea id="education" placeholder="Education Details (e.g., Degree, Institution, Years)" required></textarea>
+
+        <h3>Work Experience</h3>
+        <textarea id="work-experience" placeholder="Work Experience Details" required></textarea>
+
+        <h3>Skills</h3>
+        <input type="text" id="skills" placeholder="Skills (comma-separated)" required />
+
+        <button type="button" id="generate-resume-btn">Generate Resume</button>
+      </form>
+    </section>
+
+    <!-- Dynamic Resume Display -->
+    <section class="resume-container" id="resume-display">
+      <!-- The dynamically generated resume will appear here -->
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
